@@ -1,0 +1,25 @@
+{% extends 'auth/__auth__.html' %}
+{% block title %}
+    Cadastrar-se
+{% endblock %}
+{% block body %}
+    <div class="card-body text-center">
+        <div class="mb-4">
+            <i class="feather icon-user-plus auth-icon"></i>
+        </div>
+        <h3 class="mb-4">Cadastrar-se</h3>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Nome de Usuário">
+        </div>
+        <div class="input-group mb-3">
+            <input type="email" class="form-control" placeholder="E-mail">
+        </div>
+        <div class="input-group mb-4">
+            <input type="password" class="form-control" placeholder="Senha">
+        </div>
+        <button class="btn btn-primary shadow-2 mb-4">Cadastrar-se</button>
+        <p class="mb-0 text-muted">Já possui uma conta? <a href="login"> Log in</a></p>
+    </div>
+{% endblock %}
+{% block script %}
+{% endblock %}
